@@ -14,31 +14,18 @@ class JobMatchRequest(BaseModel):
     job_description: str
 
 skills_db = [
-    "python",
-    "java",
-    "sql",
-    "react",
-    "typescript",
-    "javascript",
-    "html",
-    "css",
-    "docker",
-    "aws",
-    "git",
-    "github",
-    "fastapi",
-    "mongodb",
-    "mysql",
-    "linux",
-    "ui",
-    "ux",
-    "figma",
-    "ruby",
-    "go",
-    "rust",
-    "nodejs",
-    "angular",
-    "kubernetes"
+   "python", "java", "c", "c++", "go", "rust",
+    "react", "vue", "angular", "typescript",
+    "docker", "kubernetes", "terraform",
+    "aws", "azure", "gcp",
+    "jenkins", "github actions",
+    "linux", "unix",
+    "sql", "postgresql", "mongodb",
+    "redis", "rabbitmq",
+    "fastapi", "django", "flask",
+    "spring boot",
+    "machine learning", "tensorflow",
+    "pytorch", "llm", "rag"
 ]
 
 app = FastAPI()
